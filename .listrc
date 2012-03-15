@@ -2,10 +2,10 @@
 ##
 ##  Config file for:
 ##
-##    ~/bin/lists
+##    ~/bin/list
 ##
 
-lists_dir="${HOME}/lists"
+export lists_dir="${HOME}/lists"
 dots_dir="${HOME}/Desktop/dot.jearsh"
 #lists_dir="/Volumes/jearsh/env/lists"
 debug=0
