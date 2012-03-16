@@ -7,11 +7,9 @@
 
     cp .listrc ~/
 
-    find .vim -type f -ok cp {} ~/{} \;
+    cp vim-lists ~/.vimbundles # if you use pathogen
 
-    cat <<"VIMRC" >>~/.vimrc
-    au BufNewFile,BufRead,BufReadPost set ft=lists syntax=lists
-    VIMRC
+    echo 'au BufNewFile,BufRead,BufReadPost set ft=lists syntax=lists' >>~/.vimrc
 
 
 
